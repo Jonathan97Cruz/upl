@@ -1,14 +1,91 @@
 html {
-    height: 100%;
+  height: auto;
 }
 body {
-    background-image: url(../img/image.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(../img/UPL_Background_Red_Crop_RGB\ \(1\).jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-a{
-    text-align: center;
+a {
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin: 5px;
+  display: block;
+}
+
+.enlace-izquierda {
+    text-align: right;
     padding: 5px;
     width: 100%;
+    margin: 5px;
+    float: right;
+}
+
+.rewarded {
+  width: 30%;
+  height: auto;
+}
+
+.centrados {
+  width: 60%;
+  height: auto;
+}
+
+.centrados1 {
+  width: 75%;
+  height: auto;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+    .centrados1 {
+      min-height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .centrados1 {
+      justify-content: left;
+      align-items: center;    
+    }
+}
+  
+@media (max-width: 767px) {
+    .centrados1 {
+      min-height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+    }
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    justify-content: left;
+    align-items: center;    
+  }
+}
+
+@media (max-width: 767px) {
+  .contenedor {
+    min-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
