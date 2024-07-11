@@ -1,0 +1,116 @@
+html {
+    height: auto;
+}
+  
+body {
+    background-image: url(../img/UPL_Background_Red_Crop_RGB\ \(1\).jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.insignias {
+    width: 60%;
+    height: auto;
+
+}
+
+.insigniasCenter{
+    text-align: center;
+}
+
+.logoUpl {
+    width: 90%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.logoUplCenter {
+    text-align: center;
+}
+
+.tituloBien {
+    padding-top: 30px;
+}
+
+.btnBusqueda {
+    margin-top: 40px;
+}
+
+.tituloTab {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+.iconRewarded {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.btn.btn-danger {
+    margin-top: 10%;
+    background-color: blueviolet;
+    border: blueviolet;
+    width: 50%;
+}
+
+.regresarIzq {
+    text-align: end;
+}
+
+
+@media (max-width: 767px) { /*Para pantallas pequeñas*/
+    .insigniasCenter {
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .logoUplCenter {
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn.btn-danger {
+        min-height: auto;
+        width: 60%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contentRewarded {
+        min-height: auto;
+        width: 50%;
+        
+    }
+}
+
+
+
+  @media (min-width: 768px) {
+    .contenedor {
+      justify-content: left;
+      align-items: center;    
+    }
+  }
+  
+  
