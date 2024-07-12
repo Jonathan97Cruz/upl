@@ -23,7 +23,7 @@ body {
 .logoUpl {
     width: 90%;
     height: auto;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .logoUplCenter {
@@ -32,6 +32,7 @@ body {
 
 .tituloBien {
     padding-top: 30px;
+    color: aliceblue;
 }
 
 .btnBusqueda {
@@ -43,12 +44,19 @@ body {
     color: aliceblue;
 }
 
+.centerCard {
+    text-align: center;
+}
 
+.badgetReward {
+    text-align: center;
+    width: 30%;
+}
 
-
-
-
-
+.insigniasCard {
+    text-align: center;
+    width: 20%;
+}
 
 .iconRewarded {
     margin-top: 20px;
@@ -63,18 +71,25 @@ body {
     width: 50%;
 }
 
+.btn.btn-primary {
+    margin-top: 13%;
+    margin-left: 2%;
+    height: 43px;
+}
+
 .regresarIzq {
     text-align: end;
 }
 
 
-@media (max-width: 767px) { /*Para pantallas pequeñas*/
+@media (max-width: 767px) { /*Para pantallas Medianas*/
     .insigniasCenter {
         min-height: auto;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         width: 40%;
+        margin-top: 5%;
     }
 }
 
@@ -85,14 +100,54 @@ body {
         justify-content: center;
         align-items: center;
         width: 20%;
+        margin-top: 10%;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
+    .logoUplCenter {
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+    }
+}
+
+
+
+@media (max-width: 767px) { /* Pantallas Medianas*/
     .btn.btn-danger {
         min-height: auto;
         width: 60%;
         margin-top: 10%;
+    }
+}
+
+@media (max-width: 575px) { /* Pantallas pequeñas*/
+    .btn.btn-danger {
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        margin-top: -15%;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn.btn-primary {
+        margin-top: 25%;
+        margin-left: 2%;
+        height: 43px;
+    }
+}
+
+@media (max-width: 575px) {
+    .btn.btn-primary {
+        margin-top: 30%;
+        margin-left: 2%;
+        height: 30%;
     }
 }
 
@@ -104,13 +159,24 @@ body {
     }
 }
 
-
-
-  @media (min-width: 768px) {
-    .contenedor {
+@media (max-width: 575px) { /*Bienvenido, busqueda*/
+    .bienvenidaCont {
+      flex-direction: row;
       justify-content: left;
-      align-items: center;    
+      align-items: center;
+      width: 40%;
     }
-  }
+}
+
+@media (max-width: 575px) {
+    .card {
+        margin: 5% 10% -4%;
+    }
+}
+
+
+
+
+
   
   
