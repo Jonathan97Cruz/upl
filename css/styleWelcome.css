@@ -31,8 +31,8 @@ body {
 }
 
 .tituloBien {
-    padding-top: 30px;
-    color: aliceblue;
+    padding-top: 20px;
+    color: white;
 }
 
 .btnBusqueda {
@@ -41,7 +41,7 @@ body {
 
 .tituloTab {
     text-align: center;
-    color: aliceblue;
+    color: white;
 }
 
 .centerCard {
@@ -81,6 +81,65 @@ body {
     text-align: end;
 }
 
+.tituloHeader{
+    color: black;
+    padding-top: 20%;
+}
+
+.badgetInsig {
+    width: 10%;
+}
+
+.imgValores {
+    width: 15%;
+    height: auto;
+}
+
+.txtInsignias {
+    color: white;
+    font-size: x-large;
+}
+
+.transparencia{
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.img100ESR {
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.img100Dive {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5%;
+}
+
+.img100Efi {
+    text-align: center;
+    width: 70%;
+    height: auto;
+    margin-bottom: -2%;
+}
+
+.numInsignias {
+    font-size: xx-large;
+}
+
+.transparencia:focus {
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.valoresCata {
+    width: 30%;
+    height: auto;
+}
 
 @media (max-width: 767px) { /*Para pantallas Medianas*/
     .insigniasCenter {
@@ -173,6 +232,7 @@ body {
         margin: 5% 10% -4%;
     }
 }
+
 
 
 
