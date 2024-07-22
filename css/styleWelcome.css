@@ -146,6 +146,16 @@ body {
     border: blueviolet;
 }
 
+.emisionInsig {
+    width: 20%;
+    height: auto;
+}
+
+.txtEmision {
+    color: white;
+    font-size: x-large;
+}
+
 @media (max-width: 767px) { /*Para pantallas Medianas*/
     .insigniasCenter {
         min-height: auto;
@@ -177,7 +187,6 @@ body {
         width: 20%;
     }
 }
-
 
 
 @media (max-width: 767px) { /* Pantallas Medianas*/
@@ -239,9 +248,30 @@ body {
 }
 
 
+@media (max-width: 767px) {
+    .emisionInsig {
+        min-height: auto;
+        width: 30%;
+    }
+}
 
+@media (max-width: 575px) {
+    .emisionInsig {
+        min-height: auto;
+        width: 25%;
+    }
+}
 
+@media (max-width: 767px) {
+    .txtEmision {
+        min-height: auto;
+        font-size: large;
+    }
+}
 
-
-  
-  
+@media (max-width: 575px) {
+    .txtEmision {
+        min-height: auto;
+        font-size: small;
+    }
+}  

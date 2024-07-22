@@ -1,0 +1,86 @@
+html {
+    height: auto;
+}
+  
+body {
+    background-image: url(../img/UPL_Background_Red_Crop_RGB\ \(1\).jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+form {
+    display: contents;
+}
+
+footer {
+    padding-top: 7%;
+}
+.insigniasCenter {
+    text-align: center;    
+}
+
+.txtCenter {
+ display: grid;
+ place-items: center;
+ text-align: center;
+ 
+ align-items: center;
+}
+
+.insignias {
+    width: 20%;
+    height: auto;
+    margin: 2% 0;
+}
+
+.form-control {
+    width: 50%;
+    text-align: center;
+    margin: 4px;
+}
+
+.form-select {
+    width: 50%;
+    text-align: center;
+    margin: 4px;
+}
+
+.regresarIzq {
+    text-align: end;
+}
+
+.btn.btn-success {
+    background-color: blueviolet;
+    border: blueviolet;
+    width: 50%;
+    margin-top: 1%;
+}
+
+@media (max-width: 767px) { /* Pantallas Medianas*/
+    .btn.btn-danger {
+        min-height: auto;
+        width: 60%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 575px) { /* Pantallas pequeñas*/
+    .btn.btn-danger {
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        margin-top: -15%;
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 575px) {
+
+}
