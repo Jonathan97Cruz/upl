@@ -264,47 +264,26 @@
                 <div class="card card-round">
                   <div class="card-header">
                     <div class="card-head-row card-tools-still-right">
-                      <h4 class="card-title">Insignias Principales</h4>
+                      <h4 class="card-title"><i class="fa-solid fa-trash"></i> Eliminar usuario</h4>
                       <div class="card-tools">
                         <!--Aquí poner paginacion y elemento de busqueda-->
-                        <a href="agregar_ins_principal.html" class="btn btn-primary"> <i class="fa-solid fa-circle-plus"></i> Añadir</a>
+                        
                       </div>
                     </div>
                   </div>
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-12">
-                        <div class="table-responsive table-hover table-sales">
-                          <table class="table">
-                            <thead>
-                              <th>Numero</th>
-                              <th>Nombre de insignia</th>
-                              <th>Descripcion</th>
-                              <th>Imagen</th>
-                              <th>Opciones</th>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <div class="flag">
-                                    <span>1</span>
-                                  </div>
-                                </td>
-                                <td>El mejor en los negocios</td>
-                                <td>Está insignia describre...</td>
-                                <td> <img src="../img/Insignias Agil/El-mejor-en-los-negocios.png" alt="" class="img-fluid"></td>
-                                <td>
-                                  <form action="">
-                                    <button type="" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></button>
-                                  </form>
-                                  <form action="">
-                                    <button type="" class="btn btn-danger"><i class="fa-solid fa-trash"></i></button>
-                                  </form>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
+                        <form action="">
+                          <div class="alert alert-danger" role="alert">
+                            <h4 class="alert-heading"><i class="fa-solid fa-circle-exclamation" style="color: #fc0000;"></i> Notificación!</h4>
+                            <p>¿Estás seguro de eliminar el usuario "admin" ?</p>
+                            <hr>
+                          </div>
+                          <br>
+                          <button type="submit" class="btn btn-primary"><i class="fa-solid fa-trash"></i> Si, aceptar</button>
+                          <a href="usuarios.html" class="btn btn-danger"><i class="fa-solid fa-x"></i> Cancelar</a>
+                        </form>
                       </div>
                     </div>
                   </div>
