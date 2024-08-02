@@ -1,0 +1,400 @@
+html {
+    height: auto;
+}
+  
+body {
+    background-color: rgb(231, 231, 231);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /*border-radius: 19%;
+    border-style: groove;*/
+
+}
+
+.insignias {
+    width: 60%;
+    height: auto;
+
+}
+
+.insigniasCenter{
+    text-align: center;
+}
+
+.div-perfil {
+    text-align: center;
+    margin: auto;
+    padding-right: 0;
+}
+
+.perfil {
+    border-radius: 50%;
+}
+
+.logoUpl {
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.logoUplCenter {
+    text-align: center;
+}
+
+.tituloBien {
+    padding-top: 10px;
+    color: white;
+}
+
+.btnBusqueda {
+    /*margin-top: 20px;*/
+    margin-bottom: 2%;
+}
+
+.tituloTab {
+    text-align: center;
+    color: white;
+}
+
+.centerCard {
+    text-align: center;
+}
+
+.badgetReward {
+    text-align: center;
+    width: 30%;
+}
+
+.insigniasCard {
+    text-align: center;
+    width: 20%;
+}
+
+.iconRewarded {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.btn.btn-danger {
+    margin-top: 10%;
+    background-color: blueviolet;
+    border: blueviolet;
+    width: 50%;
+}
+
+.btn.btn-primary {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    height: 43px;
+}
+
+.regresarIzq {
+    text-align: end;
+}
+
+.tituloHeader{
+    color: black;
+    padding: 4px 0;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.badgetInsig {
+    width: 10%;
+}
+
+.imgValores {
+    width: 15%;
+    height: auto;
+}
+
+.txtInsignias {
+    color: white;
+    font-size: x-large;
+}
+
+.transparencia{
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.img100ESR {
+    text-align: center;
+    width: 80%;
+    height: auto;
+}
+
+.img100Dive {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: -5%;
+}
+
+.img100Efi {
+    text-align: center;
+    width: 70%;
+    height: auto;
+    margin-bottom: -2%;
+}
+
+.numInsignias {
+    font-size: xx-large;
+}
+
+.transparencia:focus {
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.valoresCata {
+    width: 30%;
+    height: auto;
+}
+
+.btn.btn-secondary {
+    background-color: blueviolet;
+    border: blueviolet;
+}
+
+.emisionInsig {
+    width: 20%;
+    height: auto;
+}
+
+.txtEmision {
+    color: white;
+    font-size: x-large;
+}
+
+.bienvenidaCont {
+    margin: auto;
+}
+
+.formulario {
+    display: flex;
+}
+
+@media (max-width: 767px) { /*Para pantallas Medianas*/
+    .insigniasCenter {
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 575px) { /*Para pantallas Medianas*/
+    .insigniasCenter {
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        margin-top: 5%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .logoUplCenter {
+        min-height: auto;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 575px) {
+    .logoUplCenter {
+        min-height: auto;
+        width: 20%;
+        margin-top: 6%;
+    }
+}
+
+/*Div perfil y foto perfil*/
+@media (max-width: 767px) {
+    .div-perfil {
+        min-height: auto;
+        width: 15%;
+        margin-right: 0%;
+        margin-left: 0%;
+        padding-left: 0;
+    }
+}
+
+/*Div bienvenida*/
+
+@media (max-width: 767px) {
+    .tituloBien {
+        font-size: small;
+    }
+}
+
+@media (max-width: 767px) {
+    .formulario {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .bienvenidaCont {
+        min-height: auto;
+        width: 20%;
+    }
+}
+
+
+
+@media (max-width: 767px) { /* Pantallas Medianas*/
+    .btn.btn-danger {
+        min-height: auto;
+        width: 60%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 575px) { /* Pantallas pequeñas*/
+    .btn.btn-danger {
+        min-height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 35%;
+        margin-top: -15%;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn.btn-primary {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .btn.btn-primary {
+       
+        margin-left: 2%;
+        height: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contentRewarded {
+        min-height: auto;
+        width: 50%;
+        
+    }
+}
+
+@media (max-width: 575px) { /*Bienvenido, busqueda*/
+    .bienvenidaCont {
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      width: 40%;
+    }
+}
+
+@media (max-width: 575px) {
+    .card {
+        margin: 5% 10% -4%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .emisionInsig {
+        min-height: auto;
+        width: 30%;
+    }
+}
+
+@media (max-width: 575px) {
+    .emisionInsig {
+        min-height: auto;
+        width: 25%;
+    }
+}
+
+@media (max-width: 767px) {
+    .txtEmision {
+        min-height: auto;
+        font-size: large;
+    }
+}
+
+@media (max-width: 767px) {
+    .insignias {
+        width: 44%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .img100ESR {
+        text-align: center;
+        width: 180%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .img100ESR {
+        text-align: center;
+        width: 20%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .img100Dive {
+        text-align: center;
+        width: 200%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .img100Dive {
+        text-align: center;
+        width: 20%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .img100Efi {
+        text-align: center;
+        width: 200%;
+        height: auto;
+        /* margin-bottom: -2%; */
+    }
+}
+
+@media (max-width: 575px) {
+    .img100Efi {
+        text-align: center;
+        width: 20%;
+        height: auto;
+        /* margin-bottom: -2%; */
+    }
+}
+
+@media (max-width: 575px) {
+    .txtEmision {
+        min-height: auto;
+        font-size: small;
+    }
+}  
